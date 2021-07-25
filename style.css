@@ -26,6 +26,14 @@ body{
     background-color: #198C36;
     color: white;
 }
+.item__button:hover, .sign__btn:hover{
+    box-shadow: 10px 10px 30px #198C36;
+    color: rgb(214, 209, 209);
+}
+.item__button:active, .sign__btn:active{
+    background-color: #22613a;
+    color: #198C36;
+}
 .header__list{
     list-style-type: none;
     display: flex;
@@ -40,7 +48,10 @@ body{
     color: white;
 }
 .header__link:hover{
-    color: grey;
+    color: rgb(168, 164, 164);
+}
+.header__link:active{
+    color: rgb(167, 161, 161);
 }
 .wrapper{
     background-color: #163A24;
@@ -207,6 +218,9 @@ body{
     line-height: 30px;
     margin: 10px 0 0 30px;
 }
+.menu__item:hover{
+    box-shadow: 5px 5px 10px grey;
+}
 
 
 .order{
@@ -252,6 +266,13 @@ body{
     text-decoration: none;
     padding: 15px 25px;
     margin-left: 550px;
+}
+.order__btn:hover, .nav__btn:hover{
+    box-shadow: 5px 5px 10px #198C36;
+    color: rgb(175, 172, 172);
+}
+.order__btn:active, .nav__btn:active{
+    background-color: #22613a;
 }
 
 
@@ -317,6 +338,14 @@ body{
     padding: 14px 24px;
     border-radius: 30px;
     margin-left: -50px;
+}
+.book__btn:hover{
+    box-shadow: 5px 5px 10px  #FAB5A0;
+    color: #616663;
+}
+.book__btn:active{
+    background-color: #f5a58c;
+    color: #fff;
 }
 
 
@@ -415,6 +444,12 @@ body{
     text-decoration: none;
     color: #198C36;
     font-size: 18px;
+}
+.footer__link:hover{
+    color: #163A24;
+}
+.footer__link:active{
+    color: #000000;
 }
 .footer__hr{
     width: 1180px;
