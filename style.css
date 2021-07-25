@@ -39,6 +39,9 @@ body{
     text-decoration: none;
     color: white;
 }
+.header__link:hover{
+    color: grey;
+}
 .wrapper{
     background-color: #163A24;
     height: 560px;
