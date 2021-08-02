@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=1200px"> -->
     <title>Clerksy</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <header class="header">
-            <a href="./index.html"><img class="header__img" src="./image/clerksy.png" alt="clerksy"></a>
-            <ul class="header__list">
-                <li class="header__item"><a class="header__link" href="#">Log in</a></li>
-                <li class="header__item"><a class="header__link" href="#">844-332-6440</a></li>
-                <li class="item__button"><a class="header__link" href="#">Get Started</a></li>
-            </ul>
+            <nav class="header__nav container">
+                <a href="./index.html">
+                    <img class="header__logo" src="./image/clerksy.png" alt="clerksy-logo" width="153" height="58">
+                </a>
+                <label for="x" class="header__label">
+                    <span class="header__bar fas fa-bars fa-2x"></span>
+                </label>
+                <input id="x" class="header__checkbox" type="checkbox">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#">Log In</a></li>
+                    <li class="header__item"><a class="header__link" href="tel:844-332-6440">844-332-6440</a></li>
+                    <li class="header__item"><a class="header__link header__btn" href="#">Get Started</a></li>
+                </ul>
+            </nav>
         </header>
-        <div class="wrapper">
-            <img class="wrapper__img" src="./image/easy.png" alt="easy">
-            <nav class="wrapper__nav">
-            <h1 class="wrapper__heading">Running the show <br> has never been so <br> easy.</h1>
-            <p class="wrapper__text">Ready to put the human back in HR? Clerksy helps you <br> set the stage with an inclusive and compliant <br> workplace.</p>
-        </nav>
-        </div>
+        <main class="main">
+            <section class="intro">
+                <div class="container">
+                    <h1 class="intro__title">Running the show has never been so easy.</h1>
+                    <p class="intro__description">Ready to put the human back in HR? Clerksy helps you set the stage with an inclusive and compliant workplace.</p>
+                </div>
+            </section>
+        </main>     
 
         <div class="card">
+            <div class="container">
             <nav class="card__nav">
-                <img src="./image/HR.png" alt="HR">
+                <img class="card__hr"  src="./image/HR.png" alt="HR">
                 <h2 class="card__heading">Put the human <br> back in HR.</h2>
                 <p class="card__text">Your employees are the real stars. Show the <br> love and help them perform!</p>
             </nav>
@@ -59,52 +72,63 @@
                 </ul>
             </div>
         </div>
+        </div>
 
 
+        <div class="container">
         <div class="box">
             <h2 class="box__heading">HR Production of the Highest Quality</h2>
             <ul class="box__list">
                 <li class="box__item"><a href="#" class="box__link">
-                    <img src="./image/message.png" alt="message">
+                    <img class="box__img" src="./image/message.png" alt="message">
                     <p class="box__text">Educates & Informs</p>
                     <p class="box__text">Employee Expectations</p>
                 </a></li>
                 <li class="box__item"><a href="#" class="box__link">
-                    <img src="./image/case.png" alt="case">
+                    <img class="box__img" src="./image/case.png" alt="case">
                     <p class="box__text">Protects Your Business</p>
                     <p class="box__text">Just in Case</p>
                 </a></li>
                 <li class="box__item"><a href="#" class="box__link">
-                    <img src="./image/documents.png" alt="documents">
+                    <img class="box__img" src="./image/documents.png" alt="documents">
                     <p class="box__text">Manages & Stores</p>
                     <p class="box__text">Important Documents</p>
                 </a></li>
                 <li class="box__item"><a href="#" class="box__link">
-                    <img src="./image/healthy-work.png" alt="healthy-work">
+                    <img class="box__img" src="./image/healthy-work.png" alt="healthy-work">
                     <p class="box__text">Create a Healthy</p>
                     <p class="box__text">Work Environment</p>
                 </a></li>
             </ul>
+        </div>
+
+
 
             <nav class="box__nav">
                 <h3 class="box__nav__heading">Employees come in all shapes and <br> sizes. Find the right fit.</h3>
                 <p class="box__nav__text">Focus on casting and screening. Let Clerksy handle contracts, resolve any on set-conflicts <br> and make sure you are compliant with work and safety boards.</p>
                 <img class="box__nav__img" src="./image/employees.png" alt="employees">
             </nav>
+        
         </div>
 
+        <div class="container">
         <nav class="frame__nav">
             <h2 class="frame__heading">How the scenes <br> fit together</h2>
             <p class="frame__text">Employee Training & Development, Diversity <br> & Inclusion Programs, and Conflict <br> Resolution.</p>
             <img class="frame__img" src="./image/scenes.png" alt="scenes">
         </nav>
+    </div>
 
 
+    
+
+        <div class="container">   
         <menu class="menu">
             <h3 class="menu__heading">Consider everyone's best interest</h3>
             <p class="menu__text">HR is for everyone. Clerksy can help you.</p>
             <ul class="menu__list">
-                <li class="menu__item">
+                <li class="menu__item ">
                     <img class="menu__img" src="./image/company.png" alt="company">
                     <h4 class="menu__subheading">Protect Your <br> Company</h4>
                     <ul class="menu__submenu">
@@ -113,7 +137,7 @@
                     <li class="menu__subitem">Policy Drafting</li>
                 </ul>
                 </li>
-                <li class="menu__item">
+                <li class="menu__item item">
                     <img class="menu__img" src="./image/star.png" alt="star">
                     <h4 class="menu__subheading">Set Your Employees <br> Up For Success</h4>
                     <ul class="menu__submenu">
@@ -123,7 +147,7 @@
                     <li class="menu__subitem">Employee Performance</li>
                 </ul>
                 </li>
-                <li class="menu__item">
+                <li class="menu__item ">
                     <img class="menu__img" src="./image/lupa.png" alt="lupa">
                     <h4 class="menu__subheading">Know Your Industry's <br> Legal Landscape</h4>
                     <ul class="menu__submenu">
@@ -134,8 +158,11 @@
                 </li>
             </ul>
         </menu>
+    </div>
 
 
+
+        <div class="container">
         <div class="order">
             <h3 class="order__heading">It's easy as 1,2,3</h3>
             <p class="order__text">Clerksy can help use your unique business needs. Here's how:</p>
@@ -167,7 +194,9 @@
             <br>
             <a class="order__btn" href="#">Book Free Discovery Call</a>
         </div>
+    </div>
 
+        <div class="container">
         <div class="nav">
             <nav class="nav__left">
             <h2 class="nav__heading">Not just another <br> HR resource.</h2>
@@ -178,8 +207,10 @@
             <img class="nav__img" src="./image/hr-resource.png" alt="HR">
         </nav> 
         </div>
+    </div>
 
 
+        <div class="container">
         <div class="book">
             <img class="book__img-left" src="./image/left-img.png" alt="left-img">
 
@@ -190,7 +221,9 @@
         </nav>
         <img class="book__img-right" src="./image/right-img.png" alt="right-img">
         </div>
+    </div>
 
+        <div class="container">
         <div class="sign">
             <nav class="sign__left">
             <h3 class="sign__heading">Stay up to date!</h3>
@@ -199,10 +232,11 @@
         <nav class="sign__right">
             <input class="sign__input" type="text" >
             <a class="sign__btn" href="#">Sign Up</a>
-            <p class="sign__description">By submitting your email you agree to receive updates about Clerksy. You can <br> unsubscribe at any time. View our full <span class="sign__span">Privacy Policy.</span></p>
+            <p class="sign__description">By submitting your email you agree to receive updates about Clerksy. You can  unsubscribe at any time. View our full <span class="sign__span">Privacy Policy.</span></p>
         </nav>
         </div>
     </div>
+    <!-- </div> -->
 
 
     <footer class="footer">
