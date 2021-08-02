@@ -480,9 +480,9 @@ header:nth-child(3){
     width: 1000px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1120px) {
     .container{
-        width: 1000px;
+        width: 1020px;
     }
     .card__text{
         margin-top: 310px;
@@ -1077,6 +1077,101 @@ header:nth-child(3){
         margin-right: -100px;
     }
 }
-
+@media (max-width: 620px){
+    .container{
+        width: 500px;
+    }
+    .card__img{
+        margin-right: 70px;
+    }
+    .card__list{
+        justify-content: space-around;
+    }
+    .card__item{
+        margin-bottom: 40px;
+    }
+    .box__heading{
+        font-size: 30px;
+    }
+    .box__nav__heading{
+        font-size: 25px;
+    }
+    .box__nav__text{
+        font-size: 12px;
+    }
+    .box__nav__img{
+        width: 500px;
+    }
+    .frame__img{
+        width: 300px;
+        height: 300px;
+    }
+    .menu__heading{
+        font-size: 30px;
+    }
+    .menu__text{
+        font-size: 16px;
+    }
+    .menu__submenu{
+        margin-left: 60px;
+    }
+    .menu__img{
+        margin-left: auto;
+    }
+    .order__heading{
+        font-size: 35px;
+    }
+    .order__text{
+        font-size: 16px;
+    }
+    .order__circle{
+        margin-left: -530px;
+    }
+    .order__btn{
+        margin-left: 150px;
+    }
+    .order__img{
+        margin-left: 100px;
+    }
+    .nav__img{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+    }
+    .nav__left{
+        margin-left: 70px;
+    }
+    .nav{
+        margin-left: auto;
+    }
+    .nav__heading{
+        font-size: 25px;
+        margin-top: -260px;
+    }
+    .nav__text{
+        font-size: 18px;
+    }
+    .book__img-left{
+        width: 150px;
+        height: 213px;
+        margin-bottom: 25px;
+        margin-top: 200px;
+    }
+    .book__img-right{
+        width: 150px;
+        height: 213px;
+        margin-left: 350px;
+    }
+    .footer__bottom{
+        margin-left: 100px;
+    }
+    .footer__hr{
+        width: 350px;
+        margin-left: 80px;
+    }
+    .footer__list{
+        margin-right: 200px;
+    }
+}    
   
   
