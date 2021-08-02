@@ -1172,6 +1172,131 @@ header:nth-child(3){
     .footer__list{
         margin-right: 200px;
     }
-}    
+} 
+@media (max-width: 520px){
+    .container{
+        width: 400px;
+    }
+    .intro__title{
+        font-size: 40px;
+    }
+    .intro__text{   
+        font-size: 16px;
+    }
+    .card__hr{
+        width: 300px;
+        height: 300px;
+    }
+    .card__heading{
+        font-size: 35px;
+    }
+    .card__text{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card__img{
+        width: 300px;
+        height: 300px;
+    }
+    .box__nav__img{
+        width: 400px;
+        height: 150px;
+    }
+    .frame__heading{
+        font-size: 30px;
+    }
+    .frame__text{
+        font-size: 14px;
+    }
+    .frame__img{
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+    }
+    .menu__heading{
+        font-size: 28px;
+    }
+    .menu__submenu{
+        margin-left: auto;
+    }
+    .order__heading{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .order__text{
+        font-size: 14px;
+    }
+    .order__item{
+        font-size: 14px;
+    }
+    .order__circle{
+        margin-left: -570px;
+    }
+    .order__btn{
+        margin-left:  90px;
+    }
+    .nav__img{
+        width: 230px;
+        height: 230px;
+    }
+    .nav__left{
+        margin-left: 80px;
+        margin-right: auto;
+    }
+    .nav__btn{
+        padding: 10px 15px;
+    }
+    .book__img-left{
+        width: 100px;
+        height: 100px;
+        /* margin-bottom: 140px;
+        margin-top: 100px; */
+        margin-top: 310px;
+    }
+    .book__img-right{
+        width: 100px;
+        height: 100px;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .book__nav{
+        margin-left: 550px;
+    }
+    .book__heading{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .book__text{
+        font-size: 16px;
+    }
+    .sign__heading{
+        font-size: 30px;
+    }
+    .sign__text{
+        font-size: 16px;
+    }
+    .sign__input{
+        width: 300px;
+        /* height: 35px; */
+    }
+    .sign__description{
+        font-size: 12px;
+    }
+    .footer__hr{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .footer__text{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .footer__list{
+        margin-left: -100px;
+        margin-right: auto;
+    }
+    .menu__list{
+        margin-left: auto;
+    }
+}   
   
   
